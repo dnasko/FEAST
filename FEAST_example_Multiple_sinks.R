@@ -7,8 +7,8 @@ setwd(paste0(dir_path, "FEAST_src"))
 source("src.R")
 
 #Set the arguments of your data
-metadata_file = "your_metadata_file_name"
-count_matrix = "your_taxa_count_matrix"
+metadata_file = "metadata_example_multi.txt"
+count_matrix = "otu_example_multi.txt"
 EM_iterations = 1000 #default value
 ##if you use different sources for each sink, different_sources_flag = 1, otherwise = 0
 different_sources_flag = 1
